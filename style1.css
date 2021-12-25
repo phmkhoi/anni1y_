@@ -1,0 +1,144 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Archivo", sans-serif;
+}
+.container{
+	width: 1300px;
+	margin: 0 auto;
+}
+header img {
+	padding: 0 auto;
+    width: 1300px;
+    text-align: center;
+}
+.clearfix:after {
+    display:block;
+    clear:both;          
+}
+.wrapper {
+    height: 50px;
+    width:1300px;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2); 
+    background:#146B3A;
+}
+.header {
+	line-height: 50px;
+	padding: 0 20px;
+	float: left;
+	color: #fff;
+	font-size: 20px;
+	clear: right;
+	position: relative;
+}
+.clearfix {
+    list-style: none;
+}
+.text {
+    float: right;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 25px;
+    clear: left;
+    position: relative;
+}
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family: "Archivo", sans-serif;
+}
+.menu a {
+    transition:all linear 0.15s;
+    color:#fff;
+    text-decoration:none;
+}
+.menu li:hover > a {
+    text-decoration:none;
+    color:#fff;
+}
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+} 
+.menu > ul > li {
+    float:right;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+.menu > ul > li > a {
+    padding: 15px 30px;
+    display:inline-block;
+    color:white;
+}
+.menu > ul > li:hover > a {
+    background:#7A181A;
+    padding-top: 10px;
+}
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    width: 400px;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    right:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#7A181A;
+}
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+.sub-menu li a {
+    padding: 7px 15px;
+    display:block;
+    font-size: 18px;
+}
+article h1 {
+    padding: 30px 0;
+    text-align: center;
+}
+article .para {
+    width: 950px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+.text-center {
+    text-align: center;
+}
+body {
+    background-color: #FFF6E1;
+}
+.para {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Archivo", sans-serif;
+}
+.music {
+    text-align: left;
+    padding: 15px 40px;
+    font-size: 17px;
+}
+#hug {
+    width: 500px;
+    margin: 30px 15px;
+}
+#PS {
+	text-align: left;
+	padding: 0 15px;
+}
+#PS1 {
+	text-align: left;
+	margin: 10px 20px;
+}
+#icon {
+	width: 50px;
+	line-height: 50px;
+	padding: 0 15px;
+}
